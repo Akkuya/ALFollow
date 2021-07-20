@@ -4,7 +4,7 @@ from selenium.webdriver.common.keys import Keys
 
 options = webdriver.ChromeOptions()
 options.binary_location = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
-chrome_driver_binary = r'C:\Users\satya\Downloads\chromedriver_win32 (1)\chromedriver.exe'
+chrome_driver_binary = r'C:\Users\username\Downloads\chromedriver_win32\chromedriver.exe'
 driver = webdriver.Chrome(chrome_driver_binary, chrome_options=options)
 
 driver.get("https://anilist.co/login")
